@@ -1,14 +1,25 @@
-body {
+#board {
     display: flex;
     border: 2px solid blue;
-    height: 100vmin;
+    height: 80vmin;
   }
   section {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
   }
-  div {
+  .square {
     border: 2px solid green;
     flex-grow: 1;
   }
+}
+
+#reset {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+}
+
+button {
+  margin: 20px 0px 20px 0px;
+}
